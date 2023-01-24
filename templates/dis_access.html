@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>dis_Access</title>
+</head>
+<body>
+    <center>
+        <table border="3px">
+            <tr>
+                <th><h1>name</h1></th>
+                <th><h1>date</h1></th>
+            </tr>
+        {% for a in Records %}
+            <tr>
+                <td>{{ a.name }}</td>
+                <td>{{ a.date }}</td>
+            </tr>
+        {% endfor %}
+        </table>
+    </center>
+
+
+    
+</body>
+</html>
